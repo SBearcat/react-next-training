@@ -1,0 +1,13 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 5, "column": 0}, "map": {"version":3,"sources":["/turbopack/[project]/app/layout.js"],"sourcesContent":["export default function RootLayout({ children }) {\n  return (\n    <html  lang=\"en\">\n\n        <body>{children}</body>\n\n    </html>\n  );\n}\n"],"names":[],"mappings":";;;;;;AAAe,SAAS,WAAW,EAAE,QAAQ,EAAE;IAC7C,qBACE,uXAAC;QAAM,MAAK;kBAER,cAAA,uXAAC;sBAAM;;;;;;;;;;;AAIf"}},
+    {"offset": {"line": 27, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 39, "column": 0}, "map": {"version":3,"sources":["/turbopack/[project]/app/header.js"],"sourcesContent":["export function Header({children}){\n    \n    return <h1>{children}</h1>;\n\n}"],"names":[],"mappings":";;;;;;AAAO,SAAS,OAAO,EAAC,QAAQ,EAAC;IAE7B,qBAAO,uXAAC;kBAAI;;;;;;AAEhB"}},
+    {"offset": {"line": 54, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 59, "column": 0}, "map": {"version":3,"sources":["/turbopack/[project]/app/page.js"],"sourcesContent":["// Description: This file contains a simple example of how to use React.js in an application that uses Node.js and Express.js as its web framework.\n\nimport { Header } from \"./header\";\nimport {Tweet} from \"react-tweet\";\n\nexport default function Page(){\n    return(\n        <section>\n            <Header>Heyooooo</Header>\n            <p>This is the page content.</p>\n            <Tweet id=\"1721221768013119762\" />\n        </section>\n    )\n}\n"],"names":[],"mappings":"AAAA,mJAAmJ;;;;;;;;;;;AAKpI,SAAS;IACpB,qBACI,uXAAC;;0BACG,uXAAC,6GAAA,CAAA,SAAM;0BAAC;;;;;;0BACR,uXAAC;0BAAE;;;;;;0BACH,uXAAC,uRAAA,CAAA,QAAK;gBAAC,IAAG;;;;;;;;;;;;AAGtB"}},
+    {"offset": {"line": 101, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 113, "column": 0}, "map": {"version":3,"sources":["/turbopack/[project]/.next-internal/server/app/page/actions.js"],"sourcesContent":["__turbopack_export_value__({\n});"],"names":[],"mappings":"AAAA,2BAA2B,CAC3B"}},
+    {"offset": {"line": 114, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}
